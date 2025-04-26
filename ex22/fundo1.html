@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            background-image: url('imagens/pattern004.png');
+        }
+
+        .fundo{
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            border: 3px solid black;
+            background-color: lightgrey;
+            border-radius: 5px;
+            margin-left: 225px;
+
+        }
+
+        #fd1{
+            background-color: lightblue;
+        }
+
+        #fd2{
+            background-image: linear-gradient(to bottom, yellow, orange);
+        }
+
+        #fd3{
+            background-image: url('imagens/pattern001.png');
+            background-repeat: no-repeat;
+            background-position: right bottom;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="fundo" id="fd1"></div>
+    <div class="fundo" id="fd2"></div>
+    <div class="fundo" id="fd3"></div>
+    
+</body>
+</html>
