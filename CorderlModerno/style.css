@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    
+    height: 330px;
+    background-color: black;
+    color: white;
+    /* padding-top: 100px; */
+    text-align: center;
+}
+
+h1 {
+    padding-top: 50px;
+    /* font-size: 140px;
+    font-weight: bolder; */
+    font-variant: small-caps;
+}
+
+header > p{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+a {
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: currentColor;
+    transition: all 0.4s ease;
+    transform: translateX(-50%);
+  }
+
+  a:hover::after {
+    width: 100%;
+  }
+
+
+
+article {
+    padding: 100px 25px;
+    height: 1266.61px;
+    background-color: white;
+}
+
+.p {
+    font-size: 60px;
+    /* line-height: 65px; */
+    font-weight: bold;
+}
+
+.p4 {
+    margin-top: 200px;
+}
+
+.p7 {
+    margin-top: 200px;
+}
+
+/* div {
+    width: 400px;
+    height: 470px;
+    background-color: aqua;
+    padding: 20px 2px;
+    
+    
+} */
+
+.sec1 {
+    
+}
+
+.sec2 {
+
+    background: url(images/background001.jpg) center center no-repeat fixed;
+    height: 1142.22px;
+    padding: 95.70px 30px;
+    background-size: cover;
+    
+}
+
+.div1 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 791.03px;
+    height: 950.84px;
+    padding: 30px 0px;
+    color: white;
+}
+
+.sec3 {
+    height: 2341px;
+}
+
+.sec4 {
+    background: url(images/background002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    height: 1142.22px;
+    padding: 95.70px 30px;
+
+}
+
+.div2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 791.03px;
+    height: 950.84px;
+    padding: 30px 0px;
+    color: white;
+}
+
+.sec5 {
+
+    height: 2341.84px;
+}
+
+footer {
+    height: 39px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
